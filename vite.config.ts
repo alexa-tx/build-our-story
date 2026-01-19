@@ -1,8 +1,8 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-// Имя репозитория заменяй на своё!
+// Заменяй "build-our-story" на имя твоего репозитория
 export default defineConfig({
-  base: "/build-our-story/", 
+  base: "/build-our-story/",
   plugins: [react()],
 });
